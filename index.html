@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background-image: url(img3.jpeg);
+      height: 90%;
+      width: 90%;
+    }
+
+    .left {
+      display: inline-block;
+      position: absolute;
+      left: 34px;
+      top: 25px;
+    }
+    .mid {
+      display: block;
+      width: 46%;
+      margin: 25px 400px;
+      border: 5px solid green;
+      border-radius: 10px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      background-color: white;
+    }
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 20px;
+      display: inline-block;
+    }
+
+    .navbar {
+      display: inline-block;
+    
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 20px;
+    }
+    .navbar li a {
+      color: rgb(16, 18, 16);
+      text-decoration: none;
+      padding: 0px 20px;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+      color: rgb(240, 228, 228);
+      background-color: rgb(0, 0, 0);
+      border-radius: 10px;
+    }
+    l .left img {
+      width: 87px;
+    }
+    .left div {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      text-align: center;
+    }
+    .btn {
+      margin: 0px 9px;
+      color: white;
+      background-color: #188431;
+      padding: 4px 14px;
+      border: 2px solid green;
+      border-radius: 10px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: gray;
+    }
+    .input {
+      color: aqua;
+    }
+    .left img {
+      height: 70px;
+      width: 70px;
+      border-radius: 30px 0;
+    }
+    .sd {
+      color: black;
+      font-weight: 600;
+      font-size: 15px;
+      background-color: rgb(99, 206, 99);
+      border-radius: 15px;
+    }
+    .block{
+      color: gold;
+      background-color: rgb(58, 158, 38);
+      border-radius: 10px;
+      width: 150px;
+      height: 90px;
+      padding: 1px 1px ;
+      margin-top: 550px;
+      margin-left: 50px;
+      border: 5px solid rgb(31, 22, 22);
+
+    }
+  </style>
+  <body>
+    <head class="header">
+      <!-- Left box for logo -->
+      <div class="left">
+        <img src="gymLogo.jpg" alt="" />
+        <div class="sd">ProFit</div>
+      </div>
+      <!-- Mid box for navigation bar  -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Fitness calculator</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+      <!-- Right box for form buttons -->
+      <div class="right">
+        <button class="btn">Call Us now</button>
+        <button class="btn">Email Us</button>
+      </div>
+      <div class="block">
+        <h2>Fitness at 50% discount</h2>
+      </div>
+    </head>
+  </body>
+</html>
